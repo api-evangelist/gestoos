@@ -33,7 +33,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 x-status: defunct
 x-status-evidence: gestoos.com dropped and redirects to parked domain (HTTP 525 then 301 to 888freespins.org); last GitHub activity 2020; last Wayback snapshot 2025-06-13
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
