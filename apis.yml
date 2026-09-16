@@ -48,7 +48,7 @@ x-status-evidence: gestoos.com dropped and redirects to parked domain (HTTP 525 
   last GitHub activity 2020; last Wayback snapshot 2025-06-13
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-09-15'
+modified: '2026-09-16'
 tags:
 - Company
 - Computer-Vision
@@ -57,6 +57,7 @@ tags:
 - SDK
 - Interactive Media
 - Artificial Intelligence
+- Defunct
 tags_raw:
 - Company
 - Computer Vision
@@ -65,6 +66,7 @@ tags_raw:
 - SDK
 - Interactive Media
 - Artificial Intelligence
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
