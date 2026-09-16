@@ -18,25 +18,24 @@ accessModel:
   public: false
   label: Unknown
   confidence: low
-  source: []
+  source:
+  - url: https://gestoos.com
+    status: 301
+    note: declared website redirects to https://888freespins.org/ — a different registrable domain (gestoos.com
+      -> 888freespins.org), possible rename or acquisition (probed 2026-09-03, roadmap#169)
   generated: '2026-07-22'
   method: derived
-  source:
-  - {url: 'https://gestoos.com', status: 301, note: 'declared website redirects to https://888freespins.org/ — a different registrable domain (gestoos.com -> 888freespins.org), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/gestoos.png
 name: Gestoos
-description: >-
-  Gestoos was a computer-vision company that built a real-time gesture-recognition
-  and touchless-interaction SDK, letting developers add camera-based hand-gesture
-  and motion control to interactive installations, digital signage, kiosks, and
-  embedded devices. Its public developer surface centered on an interactive SDK
-  with sample integrations (including bindings for the Cinder C++ creative-coding
-  framework). The company was surfaced as a portfolio company of 500 Global. As of
-  this enrichment its primary web presence at gestoos.com is offline — the domain
-  no longer resolves to the company and now redirects to an unrelated parked site —
-  and the only surviving public developer asset is the gestoos GitHub organization,
-  whose most recent activity dates to 2020. This profile is retained as a historical
-  network record; the API/SDK product appears discontinued.
+description: Gestoos was a computer-vision company that built a real-time gesture-recognition and touchless-interaction
+  SDK, letting developers add camera-based hand-gesture and motion control to interactive installations,
+  digital signage, kiosks, and embedded devices. Its public developer surface centered on an interactive
+  SDK with sample integrations (including bindings for the Cinder C++ creative-coding framework). The
+  company was surfaced as a portfolio company of 500 Global. As of this enrichment its primary web presence
+  at gestoos.com is offline — the domain no longer resolves to the company and now redirects to an unrelated
+  parked site — and the only surviving public developer asset is the gestoos GitHub organization, whose
+  most recent activity dates to 2020. This profile is retained as a historical network record; the API/SDK
+  product appears discontinued.
 url: https://raw.githubusercontent.com/api-evangelist/gestoos/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -45,10 +44,11 @@ x-backed-by:
 x-tier: stub
 x-tier-reason: portfolio-lead
 x-status: defunct
-x-status-evidence: gestoos.com dropped and redirects to parked domain (HTTP 525 then 301 to 888freespins.org); last GitHub activity 2020; last Wayback snapshot 2025-06-13
+x-status-evidence: gestoos.com dropped and redirects to parked domain (HTTP 525 then 301 to 888freespins.org);
+  last GitHub activity 2020; last Wayback snapshot 2025-06-13
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-19'
+modified: '2026-09-15'
 tags:
 - Company
 - Computer-Vision
@@ -57,6 +57,7 @@ tags:
 - SDK
 - Interactive Media
 - Artificial Intelligence
+- Defunct
 tags_raw:
 - Company
 - Computer Vision
