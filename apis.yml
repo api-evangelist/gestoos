@@ -1,14 +1,17 @@
 aid: gestoos
 deliveryModel:
   model: unknown
-  open_source: false
+  license_evidence:
+    not_product:
+    - gestoos/gestoos-cinder-samples
+  open_source: unknown
   commercial: false
   callable_host: false
   label: Delivery model not determined — needs a product licence on record
   confidence: low
   source:
-  - none
-  generated: '2026-08-28'
+  - repository-not-product
+  generated: '2026-09-25'
   method: derived
 accessModel:
   pricing: unknown
@@ -51,7 +54,7 @@ created: '2026-07-17'
 modified: '2026-09-16'
 tags:
 - Company
-- Computer-Vision
+- Computer Vision
 - Gesture Recognition
 - Touchless Interaction
 - SDK
@@ -67,6 +70,7 @@ tags_raw:
 - Interactive Media
 - Artificial Intelligence
 - Defunct
+- Computer-Vision
 apis: []
 maintainers:
 - FN: Kin Lane
